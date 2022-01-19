@@ -1,0 +1,6 @@
+.character-card{
+    position: absolute; width: 20rem; height: 30rem; 
+    display: flex; justify-content: center; align-items: center;
+    background: #171717; border-radius: 10px; box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.8);
+}
+

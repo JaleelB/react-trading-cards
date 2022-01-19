@@ -1,12 +1,12 @@
 *,*::before, *::after{ padding: 0; margin: 0; }
 
 body{height: 100%; }
-.container{  width: 100%; height: 100%;}
+.container{  width: 100%; height: 100%; scroll-behavior: smooth;}
 
-.landing-page{ position: relative; width: 100vw; height: 100vh; background: #fff;}
+.landing-page,.villian-cards-container,.hero-cards-container{ position: relative; width: 100vw; height: 100vh; background: #fff;}
 
 .slider{ 
-    width: 50vw; 
+    width: 60vw; 
     display:inline-block; margin-left: -9%; overflow: hidden; 
     transform: skewX(-8deg); transition: width 1.2s ease-in-out; pointer-events: none;
 }
@@ -35,6 +35,8 @@ body{height: 100%; }
 .hero-btn:hover, .villian-btn:hover { transform: scale(1.5); transition: 0.5s ease-in-out; }
 
 
+
 .flex{display: flex; justify-content: center; align-items: center;}
 .bold{ text-transform: uppercase; }
 .big{ font-weight: 800;  }
+

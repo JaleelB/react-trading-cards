@@ -1,0 +1,15 @@
+.card-front{position: relative; display: flex; justify-content: center; align-items: center;}
+.image{ position: relative; width: 13rem; height: 27rem; }
+.card-bottom{ position: absolute; display: flex; gap: 8.5rem; width: 100%; left: -2rem; bottom: -1rem; color: white; font-size: 1.5em;}
+.back-icon{ 
+    width: 2em !important; height: 2em !important; color: #fff;
+    animation: bounce 1s infinite; 
+}
+
+.back-icon:hover{ animation: none; }
+
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ }

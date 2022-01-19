@@ -2,10 +2,10 @@ import React from 'react'
 
 const CardInfo = () => {
     return (
-        <div>
-            
+        <div className="character-info">
+            <p className="character-details"></p>
         </div>
-    )
+    );
 }
 
-export default CardInfo
+export default CardInfo;
