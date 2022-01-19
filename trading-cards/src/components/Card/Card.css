@@ -1,6 +1,7 @@
-.character-card{
-    position: absolute; width: 20rem; height: 30rem; 
+.card{
+    position: relative; 
+    /* width: 20rem; height: 30rem;  */
+    width: calc(8rem + 10vw); height: calc(20rem + 20vh);
     display: flex; justify-content: center; align-items: center;
     background: #171717; border-radius: 10px; box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.8);
 }
-

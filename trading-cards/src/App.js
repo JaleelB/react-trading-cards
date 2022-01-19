@@ -4,7 +4,7 @@ import './CSS/Hero.css'
 import {Link} from 'react-scroll'
 import Button from '@mui/material/Button';
 
-import Card from './components/Card/Card';
+import HeroCards from './components/HeroCards/HeroCards';
 
 function App() {
 
@@ -30,7 +30,7 @@ function App() {
               <h1 className="big">THE VILLIAN?</h1>
             </div>
             <Button className="villian-btn" variant="outlined" >
-              <Link to="villian" spy={true} smooth={true} offset={50} duration={500}>SHOW ME THE VILLIANS</Link>
+              <Link to="villian" spy={true} smooth={true} offset={15} duration={500}>SHOW ME THE VILLIANS</Link>
             </Button>
           </div>
         </div>
@@ -43,7 +43,7 @@ function App() {
 
       <div className="hero-cards-container flex" id="hero">
         {/* <h1>HELLO HEROES</h1> */}
-        <Card/>
+        <HeroCards/>
       </div>
 
     </div>
