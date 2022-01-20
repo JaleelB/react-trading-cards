@@ -1,10 +1,12 @@
 .card-back{
     position: absolute; width: 100%; height: 100%;
     display: flex; justify-content: center; align-items: center;
+    background: #171717; border-radius: 10px; backface-visibility: hidden; transform: rotateY(180deg);
 }
 
 .card-back-header{ position: absolute; left: 1rem; top: 1rem; color: #fff;}
-.card-back-header p{ margin-bottom: 0.5rem; }
+.card-back-header p{ margin-bottom: 0.5rem;  color: #ED1D24; font-size: 1.5rem; font-weight:800; }
+/* .character-name{ position: absolute; } */
 
 .card-back-details{ display: flex; justify-content: center; align-items:center; flex-direction: column; }
 .character-avatar-back{ 
@@ -12,7 +14,7 @@
     border-radius: 50%; background: #fff; 
 }
 .avatar-icon{ vertical-align: middle; width: 10rem; height:10rem; border-radius: 50%; border: 3px solid white;}
-.character-details{ width: 80%; color: #fff; font-weight: 300; font-size: 1rem;  font-size: 1.3em;}
+.character-details{ width: 80%; color: #fff; font-weight: 300; font-size: 1.3em;}
 
 .card-back-bottom{ 
     position: absolute;  width: calc(8rem + 10vw); height: 2rem; left: 0; bottom: 1rem; 

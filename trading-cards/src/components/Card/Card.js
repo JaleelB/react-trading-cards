@@ -1,21 +1,26 @@
 // import React from 'react'
 import './Card.css';
 import React, { useState } from 'react';
-// import CardFront from '../CardFront/CardFront';
+import CardFront from '../CardFront/CardFront';
 import CardBack from '../CardBack/CardBack';
 
 const Card = ({image, name, details, characterType, avatarImage}) => {
 
     const [isFlipped, setIsFlipped] = useState(false);
-    const handleClick = () => { setIsFlipped(!isFlipped); };
+    const [flipStyle, setFlipStyle] = useState('');
+    const handleClick = () => { 
+        setIsFlipped(!isFlipped);
+        if(isFlipped) setFlipStyle('flip');
+        else if(!isFlipped) setFlipStyle('unflip');
+     };
 
     return (
-        <div className="card" isFlipped={isFlipped} flipDirection='vertical'>
-            {/* <CardFront 
+        <div className={`card ${isFlipped} ${flipStyle}`}>
+            <CardFront 
                 image={image}
                 name={name}
                 handleClick={handleClick}
-            />  */}
+            />
             <CardBack 
                 details={details} 
                 name={name} 
