@@ -3,3 +3,8 @@
     position: absolute; left: calc(0rem + 1vw); transform: rotate(270deg);
     font-size: calc(5rem + 1vw); color: #fff;
 }
+
+.hero-page-title2{
+    position: absolute; right: calc(0rem + 1vw); transform: rotate(90deg);
+    font-size: calc(5rem + 1vw); color: #fff;
+}

@@ -15,7 +15,7 @@
 .flip-back{ position: absolute !important; right: 1rem; }
 .back-icon{ 
     width: 2em !important; height: 2em !important; 
-    color: #fff; animation: bounce 1s infinite; 
+    color: #fff; animation: bounce 2s infinite; 
 }
 .back-icon:hover{ animation: none; }
 

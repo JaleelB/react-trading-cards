@@ -1,6 +1,11 @@
 .villian-cards-container{ background:#4D0091;}
 
 .villian-page-title{ 
-    position: absolute; left: calc(0rem + 1vw); transform: rotate(270deg);
+    position: absolute; left: 1vw; transform: rotate(270deg);
+    font-size: calc(5rem + 1vw); color: #fff;
+}
+
+.villian-page-title2{
+    position: absolute; right: 1vw; transform: rotate(90deg);
     font-size: calc(5rem + 1vw); color: #fff;
 }

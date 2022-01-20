@@ -13,7 +13,7 @@
     border-radius: 50%; background: #fff; 
 }
 .avatar-icon{ vertical-align: middle; width: 10rem; height:10rem; border-radius: 50%; border: 3px solid white;}
-.character-details{ width: 80%; color: #fff; font-weight: 300; font-size: 1.3em;}
+.character-details{ width: 80%; color: #fff; font-weight: 300; font-size: calc(1.2em + 0.1vw);}
 
 .card-back-bottom{ 
     position: absolute;  width: calc(8rem + 10vw); height: 2rem; left: 0; bottom: 1rem; 
@@ -23,7 +23,7 @@
 .flip-front{ position: absolute !important; right: 1rem; bottom: 0; }
 .front-icon{ 
     width: 2em !important; height: 2em !important; 
-    color: #fff; animation: bounce 1s infinite; 
+    color: #fff; animation: bounce 2s infinite; 
 }
 .front-icon:hover{ animation: none; }
 

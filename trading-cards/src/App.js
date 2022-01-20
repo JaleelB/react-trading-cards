@@ -42,11 +42,13 @@ function App() {
       <div className="villian-cards-container flex" id="villian">
         <h1 className='villian-page-title'>VILLIANS</h1>
         <VillianCards/>
+        <h1 className='villian-page-title2'>VILLIANS</h1>
       </div>
 
       <div className="hero-cards-container flex" id="hero">
         <h1 className="hero-page-title">HEROES</h1>
         <HeroCards/>
+        <h1 className="hero-page-title2">HEROES</h1>
       </div>
 
     </div>
