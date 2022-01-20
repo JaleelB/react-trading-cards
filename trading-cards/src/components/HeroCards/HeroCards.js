@@ -23,9 +23,9 @@ const HeroCards = () => {
         },
         {
           heroName: 'Dr. Strange',
-          heroDetails: `Once a highly successful, yet notably egotistical, surgeon, Doctor Stephen Strange endured a terrible accident that led him to evolve in ways he could have never foreseen.As Earth’s Sorcerer Supreme, Doctor Strange wields arcane spells and mystical artifacts to defend the planet against malevolent threats.`,
+          heroDetails: `Doctor Stephen Strange endured a terrible accident that led him to evolve in ways he could have never foreseen.As Earth’s Sorcerer Supreme, Doctor Strange wields arcane spells and mystical artifacts to defend the planet against malevolent threats.`,
           heroImage: 'images/strange.png',
-          avatarImage: 'https://static.wikia.nocookie.net/marvelmovies/images/d/d7/Doctor_Strange_InfinityWar_poster.jpg/revision/latest/scale-to-width-down/337?cb=20180404210621',
+          avatarImage: 'https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/44/1477933942-doctor-strange-movie-composer-cumberbatch.jpg?crop=0.502xw:1.00xh;0.269xw,0&resize=480:*',
           characterType: 'HERO'
         }
     ];

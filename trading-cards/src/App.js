@@ -1,12 +1,12 @@
 import './CSS/LandingPage.css';
 import './CSS/Hero.css';
 import './CSS/Villian.css'
-// import useStyles from './AppStyle';
 import {Link} from 'react-scroll'
 import Button from '@mui/material/Button';
-
 import HeroCards from './components/HeroCards/HeroCards';
 import VillianCards from './components/VillianCards/VillianCards';
+
+
 
 function App() {
 
@@ -42,7 +42,7 @@ function App() {
       <div className="villian-cards-container flex" id="villian">
         <h1 className='villian-page-title'>VILLIANS</h1>
         <VillianCards/>
-        <h1 className='villian-page-title2'>VILLIANS</h1>
+        <h1 className='villian-page-title2'>VILLIANS</h1> 
       </div>
 
       <div className="hero-cards-container flex" id="hero">

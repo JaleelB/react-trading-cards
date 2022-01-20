@@ -9,6 +9,7 @@ body{height: 100%; }
     width: 60vw; 
     display:inline-block; margin-left: -9%; overflow: hidden; 
     transform: skewX(-8deg); transition: width 1.2s ease-in-out; pointer-events: none;
+    background-attachment: fixed;
 }
 
 .box{ height:100vh; width: 100vw; }
@@ -17,12 +18,14 @@ body{height: 100%; }
     position:  absolute; 
     background: url('https://free4kwallpapers.com/uploads/originals/2020/04/29/marvel-avengers-wallpaper.jpg') no-repeat;
     background-size: cover; color: #fff; font-size :2.5em;
+    background-attachment: fixed;
  }
 
 .villian-right{ 
     margin-left:9%; background: url("https://picfiles.alphacoders.com/324/thumb-1920-324874.png") no-repeat; 
     background-size: cover; transform: skewX(8deg); pointer-events: auto; color: #fff; font-size :2.5em;
 }
+
 
 .slider:hover{ width: 85vw; }
 .hero-left:hover + .slider{ width: 28vw; }
