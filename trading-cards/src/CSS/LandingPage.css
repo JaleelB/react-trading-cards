@@ -31,7 +31,7 @@ body{height: 100%; }
 .villian-choice{position: absolute; left: 21rem;}
 
 .hero-btn{ position: absolute !important; right: 7rem; bottom: 7rem; border: 1px solid #fff !important; color: #fff !important;}
-.villian-btn{ position: absolute !important; left: 7rem; bottom: 7rem; border: 1px solid #fff !important; color: #fff !important; }
+.villian-btn{ position: absolute !important; left: 11rem; bottom: 7rem; border: 1px solid #fff !important; color: #fff !important; }
 .hero-btn:hover, .villian-btn:hover { transform: scale(1.5); transition: 0.5s ease-in-out; }
 
 

@@ -22,10 +22,10 @@ const HeroCards = () => {
           characterType: 'HERO'
         },
         {
-          heroName: 'Vision',
-          heroDetails: `Vision was a synthezoid made from vibranium, created by Ultron with the help of Helen Cho, and given life by the powerful artifact known as the Mind Stone.`,
-          heroImage: 'images/vision.png',
-          avatarImage: 'https://cdn.vox-cdn.com/thumbor/jeaBTkdfuTQ9rkf7OQKf2BVNTJU=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22330535/white_vision_wandavision.jpg',
+          heroName: 'Dr. Strange',
+          heroDetails: `Once a highly successful, yet notably egotistical, surgeon, Doctor Stephen Strange endured a terrible accident that led him to evolve in ways he could have never foreseen.As Earth’s Sorcerer Supreme, Doctor Strange wields arcane spells and mystical artifacts to defend the planet against malevolent threats.`,
+          heroImage: 'images/strange.png',
+          avatarImage: 'https://static.wikia.nocookie.net/marvelmovies/images/d/d7/Doctor_Strange_InfinityWar_poster.jpg/revision/latest/scale-to-width-down/337?cb=20180404210621',
           characterType: 'HERO'
         }
     ];
