@@ -32,15 +32,15 @@ const HeroCards = () => {
 
 
     return (
-        <ul className='hero-cards'>
-            {
-                heroes.map((hero) => {
-                  return <li key={hero.heroName} className="hero-card"> 
-                    <Card name={hero.heroName} image={hero.heroImage} details={hero.heroDetails} characterType={hero.characterType} avatarImage={hero.avatarImage}/> 
-                  </li>
-                }) 
-            }
-        </ul>
+      <ul className='hero-cards'>
+        {
+          heroes.map((hero) => {
+            return <li key={hero.heroName} className="hero-card"> 
+              <Card name={hero.heroName} image={hero.heroImage} details={hero.heroDetails} characterType={hero.characterType} avatarImage={hero.avatarImage}/> 
+            </li>
+          }) 
+        }
+      </ul>
     );
 }
 

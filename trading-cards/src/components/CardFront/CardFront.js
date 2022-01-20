@@ -11,7 +11,7 @@ const CardFront = ({image, name, handleClick}) => {
             </div>
             <div className="card-bottom">
                 <p className="character-name">{name}</p>
-                <IconButton onClick={handleClick} className='flip-back' edge='end'><ArrowCircleRightIcon className='back-icon'/></IconButton>
+                <IconButton onClick={handleClick} className='flip-back' edge='end'><ArrowCircleRightIcon onClick={handleClick} className='back-icon'/></IconButton>
             </div>
         </div>
     )

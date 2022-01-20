@@ -9,7 +9,7 @@ const CardBack = ({details, name, characterType, avatarImage, handleClick}) => {
         <div className="card-back">
             <div className='card-back-header'>
                 <p className='character-type'>{characterType}</p>
-                <h3 className='character-name'>{name}</h3>
+                <h3 className='back-character-name'>{name}</h3>
             </div>
 
             <div className='card-back-details'>
@@ -20,7 +20,7 @@ const CardBack = ({details, name, characterType, avatarImage, handleClick}) => {
             </div>
             
             <div card-back-bottom>
-                <IconButton onClick={handleClick} className='flip-front' edge='end'><ArrowCircleLeftIcon className='front-icon'/></IconButton>
+                <IconButton onClick={handleClick} className='flip-front' edge='end'><ArrowCircleLeftIcon onClick={handleClick} className='front-icon'/></IconButton>
             </div>
         </div>
     );

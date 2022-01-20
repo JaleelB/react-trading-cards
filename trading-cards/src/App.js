@@ -6,6 +6,7 @@ import {Link} from 'react-scroll'
 import Button from '@mui/material/Button';
 
 import HeroCards from './components/HeroCards/HeroCards';
+import VillianCards from './components/VillianCards/VillianCards';
 
 function App() {
 
@@ -39,11 +40,12 @@ function App() {
       </div>
 
       <div className="villian-cards-container flex" id="villian">
-        <h1>HELLO VILLIANS</h1>
+        <h1 className='villian-page-title'>VILLIANS</h1>
+        <VillianCards/>
       </div>
 
       <div className="hero-cards-container flex" id="hero">
-        {/* <h1>HELLO HEROES</h1> */}
+        <h1 className="hero-page-title">HEROES</h1>
         <HeroCards/>
       </div>
 

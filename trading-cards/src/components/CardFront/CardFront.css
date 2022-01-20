@@ -4,14 +4,14 @@
     background: #171717; border-radius: 10px; backface-visibility: hidden;
 }
 
-.image{ position: relative; width: 12rem; height: 27rem; transition: all .2s ease-in-out; }
+.image{ position: relative; width: calc(14rem+1vw); height: calc(27rem + 1vh); transition: all .2s ease-in-out; }
 .image:hover { transform: scale(1.1); }
 
 .card-bottom{ 
     position: absolute;  width: calc(8rem + 10vw); height: 2rem; left: 0; bottom: 1rem; 
     display: flex;  align-items: center; color: white; font-size: 1.5em;
 }
-.character-name{ position: absolute; left: 1rem; }
+.character-name{ position: absolute; left: calc(1rem + 0.5vw); }
 .flip-back{ position: absolute !important; right: 1rem; }
 .back-icon{ 
     width: 2em !important; height: 2em !important; 

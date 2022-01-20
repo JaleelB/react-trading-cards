@@ -6,7 +6,6 @@
 
 .card-back-header{ position: absolute; left: 1rem; top: 1rem; color: #fff;}
 .card-back-header p{ margin-bottom: 0.5rem;  color: #ED1D24; font-size: 1.5rem; font-weight:800; }
-/* .character-name{ position: absolute; } */
 
 .card-back-details{ display: flex; justify-content: center; align-items:center; flex-direction: column; }
 .character-avatar-back{ 

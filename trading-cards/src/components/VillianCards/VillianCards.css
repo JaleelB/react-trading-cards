@@ -1,0 +1,3 @@
+.villian-cards{ position: absolute; list-style: none; padding-left: 0; }
+.villian-card{ display: inline; float: left; }
+.villian-card:nth-child(1),.villian-card:nth-child(2){ margin-right:3rem;}

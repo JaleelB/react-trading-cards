@@ -7,6 +7,6 @@
     transform-style: preserve-3d; transition: all 3s ease;
 }
 
-/* .card:hover{ transform: rotateY(180deg) translateZ(-120px); } */
+/* these classes add flit functionality to cards by rotating them */
 .flip{ transform: rotateY(180deg) translateZ(-120px); }
 .unflip{ transform: rotateY(0deg) translateZ(0px); }
