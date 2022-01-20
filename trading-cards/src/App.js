@@ -1,5 +1,6 @@
 import './CSS/LandingPage.css';
-import './CSS/Hero.css'
+import './CSS/Hero.css';
+import './CSS/Villian.css'
 // import useStyles from './AppStyle';
 import {Link} from 'react-scroll'
 import Button from '@mui/material/Button';

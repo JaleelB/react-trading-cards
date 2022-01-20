@@ -3,7 +3,7 @@ import './CardFront.css';
 import { IconButton } from '@mui/material';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
-const CardFront = ({image, name}) => {
+const CardFront = ({image, name, handleClick}) => {
     return (
         <div className="card-front">
             <div className="character-image-front">
@@ -11,7 +11,7 @@ const CardFront = ({image, name}) => {
             </div>
             <div className="card-bottom">
                 <p className="character-name">{name}</p>
-                <IconButton className='flip-back' edge='end'><ArrowCircleRightIcon className='back-icon'/></IconButton>
+                <IconButton onClick={handleClick} className='flip-back' edge='end'><ArrowCircleRightIcon className='back-icon'/></IconButton>
             </div>
         </div>
     )
