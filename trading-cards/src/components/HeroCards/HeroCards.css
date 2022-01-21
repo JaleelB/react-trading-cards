@@ -1,6 +1,6 @@
-.hero-cards{ position: absolute; list-style: none; padding-left: 0; }
-.hero-card{ display: inline; float: left; }
-.hero-card:nth-child(1),.hero-card:nth-child(2){ margin-right:3rem;}
-
-
+.hero-cards{ 
+    position: absolute; list-style: none; padding-left: 0; 
+    display: flex; justify-content: center; align-items: center;
+    gap: 2rem; flex-wrap: wrap;
+}
 

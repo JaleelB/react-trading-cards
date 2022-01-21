@@ -1,7 +1,7 @@
 .card{
     position: relative; 
     /* width: 20rem; height: 30rem;  */
-    width: calc(8rem + 10vw); height: calc(20rem + 20vh) ;
+    width: calc(18rem + 3vw); height: calc(30rem + 10vh) ;
     display: flex; justify-content: center; align-items: center;
     background: #171717; border-radius: 10px; box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.8);
     transform-style: preserve-3d; transition: all 3s ease;
@@ -10,3 +10,8 @@
 /* these classes add flit functionality to cards by rotating them */
 .flip{ transform: rotateY(180deg) translateZ(-120px); }
 .unflip{ transform: rotateY(0deg) translateZ(0px); }
+
+@media (max-width: 1050px){
+    .card{ height: calc(25rem + 5vh) }
+}
+

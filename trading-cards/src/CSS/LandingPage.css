@@ -17,7 +17,7 @@ body{height: 100%; }
 .hero-left{ 
     position:  absolute; 
     background: url('https://free4kwallpapers.com/uploads/originals/2020/04/29/marvel-avengers-wallpaper.jpg') no-repeat;
-    background-size: cover; color: #fff; font-size :2.5em;
+    background-size: cover; color: #fff; font-size:2.5em;
     background-attachment: fixed;
  }
 
@@ -42,4 +42,31 @@ body{height: 100%; }
 .flex{display: flex; justify-content: center; align-items: center;}
 .bold{ text-transform: uppercase; }
 .big{ font-weight: 800;  }
+
+@media (max-width: 1650px){ 
+    .hero-choice{ right: 5rem; font-size:0.7em; }
+    .villian-choice{ left: 6rem; font-size:0.7em; }
+ }
+
+
+@media (max-width: 1350px ){
+    .slider{ 
+        width:100vw; height: 50vh; overflow: auto; display: block;
+        transform: none; margin-left: 0; transition: none;
+    }
+
+    .slider,.hero-left{ background-attachment: scroll; }
+
+    .hero-left, .villian-right{ height: 50vh; top: 50%; }
+    .villian-right{ transform: skewX(0deg); margin-left: 0; }
+
+    .hero-choice, .villian-choice{ left: auto; right: auto; font-size: 0.6em;}
+
+    .hero-btn,.villian-btn{ bottom: 3rem; left:auto; right: auto; }
+
+    .hero-btn:hover, .villian-btn:hover { transform: none; transition: none; }
+    .hero-left:hover, .villian-right, .hero-left:hover + .slider{ pointer-events: none; }
+    
+}
+
 

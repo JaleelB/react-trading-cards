@@ -9,3 +9,8 @@
     font-size: calc(5rem + 1vw); color: #fff;
 }
 
+@media (max-width: 1700px){ 
+    .hero-page-title{ top: 1rem; left: 2rem; transform: none; font-size: calc(2rem + 1vw); }
+    .hero-page-title2{ display: none } 
+}
+@media (max-width: 650px){ .hero-cards-container{height: 155vh;} }
